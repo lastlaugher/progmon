@@ -32,9 +32,13 @@ python progmon.py foldersize --path /path/to/check/size --target target_value
 python progmon.py custom --command "du -sm /path/to/check/size | cut -f 1" --target target_value
 ```
 
-## Screenshot
+## Example run
 ```
-$ python progmon.py foldersize --path /backup/database_look/jihoonk/LISA --target 6860516
+Before running below command, I started copying large size of folder to /home/lastlaugher/images directory
+
+$ python progmon.py foldersize --path /home/lastlaugher/images --target 6860516
 3705/6860516 (0.05%) 22:03:52.413588
+
+Above current size, percentage, and time are updated in the same place periodically
 ```
 
