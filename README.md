@@ -1,2 +1,5 @@
 # progmon
-Progress monitor for time-consuming job 
+Python-based progress monitor for time-consuming job
+
+
+
