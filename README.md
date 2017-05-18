@@ -25,10 +25,16 @@ optional arguments:
   --command COMMAND
 ```
 
-## Examples
+## Example commands
 ```
-python progmon.py filecount --path /path/to/check/files
-python progmon.py foldersize --path /path/to/check/size
-python progmon.py custom --command "du -sm /path/to/check/size | cut -f 1"
+python progmon.py filecount --path /path/to/check/files --target target_value
+python progmon.py foldersize --path /path/to/check/size --target target_value
+python progmon.py custom --command "du -sm /path/to/check/size | cut -f 1" --target target_value
+```
+
+## Screenshot
+```
+$ python progmon.py foldersize --path /backup/database_look/jihoonk/LISA --target 6860516
+3705/6860516 (0.05%) 22:03:52.413588
 ```
 
